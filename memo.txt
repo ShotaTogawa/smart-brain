@@ -1,0 +1,3 @@
+Just keep in mind that with synchronous it means that as this is working javascript is not going to
+get executed on the next line versus with asynchronous if you run bcrypt hash,
+Javascript keeps executing.
