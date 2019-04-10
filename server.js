@@ -14,10 +14,8 @@ const image = require('./controllers/image');
 const db = kenx({
     client: 'pg',
     connection: {
-    host : '127.0.0.1',
-    user : 'shotatogawa',
-    password : '',
-    database : 'smart-brain'
+    host : process.env.DATABASE_URL,
+    ssl: true
   }
 });
 
